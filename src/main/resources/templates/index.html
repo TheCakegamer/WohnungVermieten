@@ -3,23 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Wohnungvermietung</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link type="text/css"
           rel="stylesheet"
           href="css/stylesheet.css"/>
 </head>
 <body>
 <div>
-    <h1 class="title">Wohnungsvermietung</h1>
+    <a href="/">
+        <h1 class="title">
+            <img class="title" src="img/RentALot.png">
+            Rent-a-Lot
+        </h1>
+    </a>
 </div>
-<div id="nav">
-    <a href="/">Start</a>
-    <a href="/house">Das Haus</a>
-    <a href="/room">Wohnungen</a>
-    <a href="/rent">Vermietung</a>
-    <a href="/contact">Kontakt</a>
-    <a href="/login">Login</a>
-    <a href="/logout">Logout</a>
-</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a href="/" class="nav-link">Start</a>
+            </li>
+            <li class="nav-item">
+                <a href="/house" class="nav-link">Das Haus</a>
+            </li>
+            <li class="nav-item">
+                <a href="/room" class="nav-link">Wohnungen</a>
+            </li>
+            <li class="nav-item">
+                <a href="/rent" class="nav-link">Vermietung</a>
+            </li>
+            <li class="nav-item">
+                <a href="/contact" class="nav-link">Kontakt</a>
+            </li>
+            <li class="nav-item">
+                <a href="/logout" class="nav-link">Logout</a>
+        </ul>
+    </div>
+</nav>
 <p>Hier bitte eine Wohnung mieten</p>
 </body>
 </html>

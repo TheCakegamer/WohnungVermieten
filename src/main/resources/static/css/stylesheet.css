@@ -1,7 +1,6 @@
 h1.title {
     font-family: 'Poppins', sans-serif;
-    padding-top: 1%;
-    padding-left: 5%;
+    padding-left: 0.5%;
     font-size: 2em;
     vertical-align: bottom;
 
@@ -14,4 +13,21 @@ p {
     justify-content: left;
     text-align: left;
     padding-left: 6%;
+}
+
+img.title {
+    padding-top: 1%;
+    padding-left: 1%;
+    vertical-align: bottom;
+    height: 2em;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
 }
