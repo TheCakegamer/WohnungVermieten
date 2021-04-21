@@ -51,7 +51,11 @@ img.title {
     height: 2em;
 }
 
-a.nav-item {
+.nav-item {
+     color: #000000;
+     text-decoration: none;
+ }
+h1.title {
     color: #000000;
     text-decoration: none;
 }
